@@ -115,7 +115,7 @@ export default function TransactionPage({ setTransactions, transactions }) {
             name="date"
             value={formData.date}
             onChange={handleInputChange}
-            className="w-full bg-transparent border-b border-gray-700 text-white p-2"
+            className="w-full text-left bg-transparent border-b border-gray-700 text-white p-2"
           />
         </div>
 
